@@ -1,16 +1,272 @@
-# React + Vite
+# Shef Claude 🍳🤖
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Shef Claude is an AI-powered recipe generation web application built with **React.js**, **Node.js**, and **Express.js**.
 
-Currently, two official plugins are available:
+The application allows users to provide ingredients and uses an AI API to generate recipes based on the available ingredients. The project demonstrates frontend-backend communication, API integration, and building an interactive AI-powered application using modern web technologies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🤖 AI-powered recipe generation
+- 🥕 Generate recipes based on available ingredients
+- ⚛️ React.js frontend
+- 🟢 Node.js and Express.js backend
+- 🔌 AI API integration
+- 📡 Frontend-backend API communication
+- 🎨 Interactive and responsive user interface
+- 🔐 API key protected using environment variables
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+### Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+
+### Backend
+
+- Node.js
+- Express.js
+
+### AI
+
+- AI API integration
+
+### Tools
+
+- Git
+- GitHub
+- npm
+
+## 📂 Project Structure
+
+```text
+shef-claude/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   ├── App.css
+│   ├── App.jsx
+│   ├── ClaudeRecipe.jsx
+│   ├── Header.jsx
+│   ├── index.css
+│   ├── Ingredient.jsx
+│   ├── main.jsx
+│   └── mmain.jsx
+│
+├── server/
+│   ├── aicall.js
+│   └── server.js
+│
+├── .env
+├── .gitignore
+├── index.html
+├── package.json
+└── README.md
+```
+
+## 🔑 Environment Variables
+
+The project uses an environment variable to store the AI API key.
+
+Create a `.env` file in the **root directory** of the project:
+
+```env
+API_KEY=your_api_key_here
+```
+
+Replace `your_api_key_here` with your actual API key.
+
+> **Important:** Never upload your `.env` file to GitHub. Make sure `.env` is included in your `.gitignore` file.
+
+Example:
+
+```text
+node_modules/
+.env
+```
+
+## ⚙️ Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/shef-claude.git
+```
+
+Move into the project directory:
+
+```bash
+cd shef-claude
+```
+
+### 2. Install dependencies
+
+Install the project dependencies:
+
+```bash
+npm install
+```
+
+## ▶️ Run the Backend
+
+The backend is located inside the `server` folder.
+
+From the root `shef-claude` directory, run:
+
+```bash
+node server/server.js
+```
+
+This starts the Express backend server.
+
+The backend runs on the port configured in `server.js`.
+
+For example:
+
+```text
+http://localhost:5000
+```
+
+## ▶️ Run the Frontend
+
+Open a **new terminal** while keeping the backend running.
+
+Make sure you are inside the `shef-claude` directory and run:
+
+```bash
+npm run dev
+```
+
+Vite will start the React development server and display a URL in the terminal, usually:
+
+```text
+http://localhost:5173
+```
+
+Open that URL in your browser.
+
+## 🌐 Running the Complete Application
+
+You need to run **both the backend and frontend at the same time**.
+
+### Terminal 1 — Backend
+
+```bash
+cd shef-claude
+node server/server.js
+```
+
+### Terminal 2 — Frontend
+
+```bash
+cd shef-claude
+npm run dev
+```
+
+Then open the frontend URL provided by Vite in your browser.
+
+## 🔄 How the Application Works
+
+The basic flow of the application is:
+
+```text
+User
+  │
+  ▼
+React Frontend
+  │
+  │  Ingredients
+  ▼
+Express Backend
+  │
+  ▼
+AI API
+  │
+  │  Generated Recipe
+  ▼
+Express Backend
+  │
+  ▼
+React Frontend
+  │
+  ▼
+Recipe Display
+```
+
+### Step-by-step
+
+1. The user enters or selects available ingredients.
+2. The React frontend collects the ingredients.
+3. React sends the ingredients to the Express backend.
+4. The Express server receives the request.
+5. The backend uses `aicall.js` to communicate with the AI API.
+6. The AI generates a recipe based on the provided ingredients.
+7. The backend sends the generated recipe back to the React application.
+8. React displays the recipe to the user.
+
+## 📁 Important Files
+
+### `src/App.jsx`
+
+The main React application component responsible for bringing the application's frontend components together.
+
+### `src/Ingredient.jsx`
+
+Handles the ingredient-related interface and user input.
+
+### `src/ClaudeRecipe.jsx`
+
+Responsible for displaying the recipe generated by the AI.
+
+### `src/Header.jsx`
+
+Contains the application's header/interface section.
+
+### `server/server.js`
+
+The Express backend server that handles requests from the React frontend.
+
+### `server/aicall.js`
+
+Handles communication with the AI API and obtains the generated recipe.
+
+## 🔐 API Key Security
+
+The AI API key is stored in the backend environment variables rather than being directly exposed in the frontend.
+
+```text
+.env
+```
+
+should never be committed to GitHub.
+
+Add the following to `.gitignore`:
+
+```text
+.env
+node_modules/
+```
+
+## 🚀 Future Improvements
+
+- Add user authentication
+- Save generated recipes
+- Add recipe history
+- Allow users to favorite recipes
+- Add dietary preference filters
+- Add cooking time and difficulty filters
+- Deploy the application online
+- Improve error handling and loading states
+
+## 👩‍💻 Author
+
+**Shefali**
+
+Built with ❤️ using React.js, Node.js, Express.js, and AI API integration.
+
+⭐ If you like the project, consider giving the repository a star!
