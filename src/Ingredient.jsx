@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/refs */
 export default function Ingredients(props) {
   const listmap = props.listofIngredient.map((element) => {
     return <li key={element}>{element}</li>;
@@ -9,9 +10,9 @@ export default function Ingredients(props) {
       <ul className="ingredients-list" aria-live="polite">
         {listmap}
       </ul>
-      {listmap.length > 3 && (
+      {listmap.length >= 3 && (
         <div className="get-receipe-container">
-          <div>
+          <div ref={props.ref}>
             <h3>Ready for a receipe?</h3>
             <p>Generate a receipe from your list of ingredients.</p>
           </div>

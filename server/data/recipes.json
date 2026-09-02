@@ -1,0 +1,648 @@
+[
+  {
+    "name": "Aloo Tomato Curry",
+    "ingredients": [
+      "potato",
+      "tomato",
+      "onion",
+      "garlic",
+      "cumin",
+      "turmeric",
+      "salt"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "easy",
+    "cookingTime": "30 minutes",
+    "instructions": "Saute onion, garlic and cumin. Add tomatoes and spices. Add diced potatoes and water. Cover and cook until potatoes are tender."
+  },
+  {
+    "name": "Paneer Butter Masala",
+    "ingredients": [
+      "paneer",
+      "tomato",
+      "onion",
+      "butter",
+      "cream",
+      "garlic",
+      "garam masala"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "medium",
+    "cookingTime": "40 minutes",
+    "instructions": "Saute onion and garlic. Add tomato puree and spices. Add butter and cream. Add paneer and simmer for several minutes."
+  },
+  {
+    "name": "Vegetable Fried Rice",
+    "ingredients": [
+      "rice",
+      "carrot",
+      "peas",
+      "onion",
+      "capsicum",
+      "soy sauce",
+      "garlic"
+    ],
+    "cuisine": "Asian",
+    "difficulty": "easy",
+    "cookingTime": "20 minutes",
+    "instructions": "Cook vegetables with garlic. Add cooked rice and soy sauce. Stir fry everything on high heat."
+  },
+  {
+    "name": "Aloo Gobi",
+    "ingredients": [
+      "potato",
+      "cauliflower",
+      "onion",
+      "tomato",
+      "turmeric",
+      "cumin",
+      "garam masala"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "easy",
+    "cookingTime": "35 minutes",
+    "instructions": "Saute cumin and onion. Add potatoes and cauliflower with spices. Add tomato and cook covered until vegetables are tender."
+  },
+  {
+    "name": "Chana Masala",
+    "ingredients": [
+      "chickpeas",
+      "tomato",
+      "onion",
+      "garlic",
+      "ginger",
+      "cumin",
+      "garam masala"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "easy",
+    "cookingTime": "35 minutes",
+    "instructions": "Saute onion, ginger and garlic. Add tomato and spices. Add cooked chickpeas and simmer until the sauce thickens."
+  },
+  {
+    "name": "Dal Tadka",
+    "ingredients": [
+      "lentils",
+      "onion",
+      "tomato",
+      "garlic",
+      "cumin",
+      "turmeric",
+      "ghee"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "easy",
+    "cookingTime": "30 minutes",
+    "instructions": "Cook lentils with turmeric. Prepare a tempering with ghee, cumin, garlic and onion. Add tomato and combine with the cooked lentils."
+  },
+  {
+    "name": "Vegetable Pasta",
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "onion",
+      "capsicum",
+      "garlic",
+      "olive oil",
+      "cheese"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "easy",
+    "cookingTime": "25 minutes",
+    "instructions": "Boil pasta. Saute onion, garlic and vegetables. Add tomato sauce. Mix with pasta and finish with cheese."
+  },
+  {
+    "name": "Tomato Basil Pasta",
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "garlic",
+      "basil",
+      "olive oil",
+      "parmesan"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "easy",
+    "cookingTime": "20 minutes",
+    "instructions": "Cook pasta. Saute garlic in olive oil and add tomatoes. Toss the pasta with the sauce, basil and parmesan."
+  },
+  {
+    "name": "Palak Paneer",
+    "ingredients": [
+      "paneer",
+      "spinach",
+      "onion",
+      "tomato",
+      "garlic",
+      "ginger",
+      "cream"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "medium",
+    "cookingTime": "40 minutes",
+    "instructions": "Blanch and blend spinach. Saute onion, ginger and garlic. Add tomato and spinach puree. Add paneer and cream and simmer."
+  },
+  {
+    "name": "Egg Fried Rice",
+    "ingredients": [
+      "rice",
+      "egg",
+      "onion",
+      "carrot",
+      "peas",
+      "soy sauce",
+      "garlic"
+    ],
+    "cuisine": "Asian",
+    "difficulty": "easy",
+    "cookingTime": "20 minutes",
+    "instructions": "Scramble eggs and set aside. Stir fry vegetables and garlic. Add cooked rice, soy sauce and eggs. Mix thoroughly."
+  },
+  {
+    "name": "Masala Omelette",
+    "ingredients": [
+      "egg",
+      "onion",
+      "tomato",
+      "green chili",
+      "coriander",
+      "salt"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "easy",
+    "cookingTime": "10 minutes",
+    "instructions": "Beat eggs with chopped vegetables and herbs. Season with salt and spices. Cook in a hot pan until set."
+  },
+  {
+    "name": "Vegetable Sandwich",
+    "ingredients": ["bread", "tomato", "onion", "cucumber", "cheese", "butter"],
+    "cuisine": "International",
+    "difficulty": "easy",
+    "cookingTime": "10 minutes",
+    "instructions": "Spread butter on bread. Add sliced vegetables and cheese. Toast until golden and crispy."
+  },
+  {
+    "name": "Grilled Cheese Sandwich",
+    "ingredients": ["bread", "cheese", "butter"],
+    "cuisine": "American",
+    "difficulty": "easy",
+    "cookingTime": "10 minutes",
+    "instructions": "Butter the bread and place cheese between the slices. Cook on a pan until both sides are golden and the cheese melts."
+  },
+  {
+    "name": "Chole Rice",
+    "ingredients": [
+      "chickpeas",
+      "rice",
+      "tomato",
+      "onion",
+      "ginger",
+      "garlic",
+      "garam masala"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "medium",
+    "cookingTime": "40 minutes",
+    "instructions": "Prepare spiced chickpea curry with onion, tomato and spices. Serve hot with cooked rice."
+  },
+  {
+    "name": "Mushroom Masala",
+    "ingredients": [
+      "mushroom",
+      "onion",
+      "tomato",
+      "garlic",
+      "ginger",
+      "cream",
+      "garam masala"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "medium",
+    "cookingTime": "30 minutes",
+    "instructions": "Saute mushrooms. Prepare onion and tomato masala with ginger and garlic. Add mushrooms and spices and simmer."
+  },
+  {
+    "name": "Garlic Butter Noodles",
+    "ingredients": ["noodles", "garlic", "butter", "soy sauce", "spring onion"],
+    "cuisine": "Asian",
+    "difficulty": "easy",
+    "cookingTime": "15 minutes",
+    "instructions": "Boil noodles. Saute garlic in butter. Add noodles and soy sauce. Toss well and garnish with spring onion."
+  },
+  {
+    "name": "Vegetable Soup",
+    "ingredients": ["carrot", "potato", "onion", "peas", "tomato", "garlic"],
+    "cuisine": "International",
+    "difficulty": "easy",
+    "cookingTime": "30 minutes",
+    "instructions": "Saute onion and garlic. Add chopped vegetables and water or stock. Simmer until all vegetables are tender."
+  },
+  {
+    "name": "Creamy Tomato Soup",
+    "ingredients": ["tomato", "onion", "garlic", "cream", "butter"],
+    "cuisine": "International",
+    "difficulty": "easy",
+    "cookingTime": "30 minutes",
+    "instructions": "Cook tomatoes with onion and garlic. Blend until smooth. Add butter and cream and simmer gently."
+  },
+  {
+    "name": "Rajma Masala",
+    "ingredients": [
+      "kidney beans",
+      "tomato",
+      "onion",
+      "ginger",
+      "garlic",
+      "cumin",
+      "garam masala"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "medium",
+    "cookingTime": "45 minutes",
+    "instructions": "Saute onion, ginger and garlic. Add tomato and spices. Add cooked kidney beans and simmer until thick."
+  },
+  {
+    "name": "Bhindi Masala",
+    "ingredients": [
+      "okra",
+      "onion",
+      "tomato",
+      "turmeric",
+      "cumin",
+      "chili powder"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "easy",
+    "cookingTime": "25 minutes",
+    "instructions": "Saute sliced okra until lightly cooked. Add onion, tomato and spices. Cook until the vegetables are tender."
+  },
+  {
+    "name": "Jeera Rice",
+    "ingredients": ["rice", "cumin", "ghee", "salt"],
+    "cuisine": "Indian",
+    "difficulty": "easy",
+    "cookingTime": "20 minutes",
+    "instructions": "Heat ghee and fry cumin seeds. Add washed rice, water and salt. Cook until the rice is fluffy."
+  },
+  {
+    "name": "Pancakes",
+    "ingredients": ["flour", "milk", "egg", "sugar", "butter", "baking powder"],
+    "cuisine": "American",
+    "difficulty": "easy",
+    "cookingTime": "20 minutes",
+    "instructions": "Mix flour, milk, egg, sugar and baking powder into a batter. Cook portions on a buttered pan until golden on both sides."
+  },
+  {
+    "name": "French Toast",
+    "ingredients": ["bread", "egg", "milk", "sugar", "butter", "cinnamon"],
+    "cuisine": "French",
+    "difficulty": "easy",
+    "cookingTime": "15 minutes",
+    "instructions": "Whisk egg, milk, sugar and cinnamon. Dip bread into the mixture and cook in butter until golden."
+  },
+  {
+    "name": "Chicken Curry",
+    "ingredients": [
+      "chicken",
+      "onion",
+      "tomato",
+      "garlic",
+      "ginger",
+      "turmeric",
+      "garam masala"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "medium",
+    "cookingTime": "50 minutes",
+    "instructions": "Saute onion, ginger and garlic. Add tomato and spices. Add chicken and cook covered until completely cooked."
+  },
+  {
+    "name": "Chicken Fried Rice",
+    "ingredients": [
+      "chicken",
+      "rice",
+      "egg",
+      "carrot",
+      "peas",
+      "soy sauce",
+      "garlic"
+    ],
+    "cuisine": "Asian",
+    "difficulty": "medium",
+    "cookingTime": "30 minutes",
+    "instructions": "Cook chicken and set aside. Stir fry vegetables and garlic. Add rice, chicken, egg and soy sauce and toss together."
+  },
+  {
+    "name": "Chickpea Salad",
+    "ingredients": [
+      "chickpeas",
+      "tomato",
+      "cucumber",
+      "onion",
+      "lemon",
+      "coriander"
+    ],
+    "cuisine": "International",
+    "difficulty": "easy",
+    "cookingTime": "10 minutes",
+    "instructions": "Combine chickpeas with chopped vegetables. Add lemon juice, coriander and seasoning. Toss well."
+  },
+  {
+    "name": "Potato Sandwich",
+    "ingredients": [
+      "potato",
+      "bread",
+      "onion",
+      "green chili",
+      "coriander",
+      "butter"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "easy",
+    "cookingTime": "20 minutes",
+    "instructions": "Mash cooked potatoes with onion, chili and coriander. Spread between bread slices and toast with butter."
+  },
+  {
+    "name": "Paneer Tikka",
+    "ingredients": [
+      "paneer",
+      "capsicum",
+      "onion",
+      "yogurt",
+      "turmeric",
+      "chili powder",
+      "garam masala"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "medium",
+    "cookingTime": "30 minutes",
+    "instructions": "Marinate paneer and vegetables in seasoned yogurt. Grill or pan cook until lightly charred."
+  },
+  {
+    "name": "Vegetable Pulao",
+    "ingredients": [
+      "rice",
+      "carrot",
+      "peas",
+      "potato",
+      "onion",
+      "cumin",
+      "garam masala"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "medium",
+    "cookingTime": "35 minutes",
+    "instructions": "Saute onion, cumin and vegetables. Add rice and spices with water. Cover and cook until rice is tender."
+  },
+  {
+    "name": "Margherita Pizza",
+    "ingredients": [
+      "pizza dough",
+      "tomato sauce",
+      "mozzarella",
+      "basil",
+      "olive oil",
+      "salt"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "medium",
+    "cookingTime": "30 minutes",
+    "instructions": "Spread tomato sauce over the pizza dough. Add mozzarella and basil. Drizzle with olive oil and bake until the crust is golden and the cheese is melted."
+  },
+  {
+    "name": "Risotto Primavera",
+    "ingredients": [
+      "arborio rice",
+      "carrot",
+      "peas",
+      "capsicum",
+      "onion",
+      "vegetable stock",
+      "parmesan",
+      "butter"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "medium",
+    "cookingTime": "35 minutes",
+    "instructions": "Saute onion and vegetables in butter. Add arborio rice and gradually add vegetable stock while stirring. Cook until the rice is creamy and tender. Finish with parmesan."
+  },
+  {
+    "name": "Creamy Mushroom Pasta",
+    "ingredients": [
+      "pasta",
+      "mushroom",
+      "garlic",
+      "onion",
+      "cream",
+      "butter",
+      "parmesan"
+    ],
+    "cuisine": "Italian",
+    "difficulty": "easy",
+    "cookingTime": "25 minutes",
+    "instructions": "Cook the pasta. Saute mushrooms, onion and garlic in butter. Add cream and parmesan and simmer until creamy. Toss with the cooked pasta."
+  },
+  {
+    "name": "Greek Salad",
+    "ingredients": [
+      "cucumber",
+      "tomato",
+      "onion",
+      "olives",
+      "feta cheese",
+      "olive oil",
+      "lemon",
+      "oregano"
+    ],
+    "cuisine": "Greek",
+    "difficulty": "easy",
+    "cookingTime": "10 minutes",
+    "instructions": "Chop cucumber, tomato and onion. Add olives and feta cheese. Dress with olive oil, lemon juice and oregano. Toss gently and serve fresh."
+  },
+  {
+    "name": "Hummus with Pita",
+    "ingredients": [
+      "chickpeas",
+      "tahini",
+      "lemon",
+      "garlic",
+      "olive oil",
+      "cumin",
+      "pita bread"
+    ],
+    "cuisine": "Middle Eastern",
+    "difficulty": "easy",
+    "cookingTime": "15 minutes",
+    "instructions": "Blend chickpeas, tahini, lemon juice, garlic, cumin and olive oil until smooth. Adjust the consistency with a little water. Serve with warm pita bread."
+  },
+  {
+    "name": "Falafel Wrap",
+    "ingredients": [
+      "chickpeas",
+      "onion",
+      "garlic",
+      "coriander",
+      "cumin",
+      "flour",
+      "flatbread",
+      "lettuce",
+      "tomato"
+    ],
+    "cuisine": "Middle Eastern",
+    "difficulty": "medium",
+    "cookingTime": "35 minutes",
+    "instructions": "Blend chickpeas with onion, garlic, coriander and cumin. Mix with flour and shape into small balls. Fry or bake until golden. Place falafel in flatbread with lettuce and tomato."
+  },
+  {
+    "name": "Vegetable Stir-Fry",
+    "ingredients": [
+      "broccoli",
+      "carrot",
+      "capsicum",
+      "mushroom",
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "sesame oil"
+    ],
+    "cuisine": "Chinese",
+    "difficulty": "easy",
+    "cookingTime": "20 minutes",
+    "instructions": "Heat sesame oil and stir fry garlic and ginger. Add the vegetables and cook on high heat until slightly tender. Add soy sauce and toss everything together."
+  },
+  {
+    "name": "Chicken Teriyaki",
+    "ingredients": [
+      "chicken",
+      "soy sauce",
+      "honey",
+      "garlic",
+      "ginger",
+      "sesame oil",
+      "spring onion"
+    ],
+    "cuisine": "Japanese",
+    "difficulty": "medium",
+    "cookingTime": "30 minutes",
+    "instructions": "Cook chicken pieces until lightly browned. Mix soy sauce, honey, garlic and ginger. Add the sauce to the chicken and simmer until thick and glossy. Garnish with spring onion."
+  },
+  {
+    "name": "Thai Green Curry",
+    "ingredients": [
+      "chicken",
+      "coconut milk",
+      "green curry paste",
+      "capsicum",
+      "onion",
+      "basil",
+      "fish sauce",
+      "lime"
+    ],
+    "cuisine": "Thai",
+    "difficulty": "medium",
+    "cookingTime": "35 minutes",
+    "instructions": "Cook green curry paste in a pan. Add chicken and cook briefly. Pour in coconut milk and add vegetables. Simmer until the chicken is cooked. Finish with basil and lime juice."
+  },
+  {
+    "name": "Mexican Bean Tacos",
+    "ingredients": [
+      "tortillas",
+      "kidney beans",
+      "tomato",
+      "onion",
+      "corn",
+      "cheese",
+      "lettuce",
+      "cumin"
+    ],
+    "cuisine": "Mexican",
+    "difficulty": "easy",
+    "cookingTime": "20 minutes",
+    "instructions": "Cook kidney beans with onion, tomato and cumin. Warm the tortillas and fill them with beans, corn, lettuce and cheese. Serve immediately."
+  },
+  {
+    "name": "Vegetable Quesadilla",
+    "ingredients": [
+      "tortillas",
+      "capsicum",
+      "onion",
+      "corn",
+      "cheese",
+      "tomato",
+      "butter"
+    ],
+    "cuisine": "Mexican",
+    "difficulty": "easy",
+    "cookingTime": "15 minutes",
+    "instructions": "Saute onion, capsicum and corn. Place the vegetables and cheese between two tortillas. Cook with a little butter until both sides are golden and the cheese melts."
+  },
+  {
+    "name": "Shakshuka",
+    "ingredients": [
+      "egg",
+      "tomato",
+      "onion",
+      "capsicum",
+      "garlic",
+      "cumin",
+      "paprika",
+      "olive oil"
+    ],
+    "cuisine": "Middle Eastern",
+    "difficulty": "easy",
+    "cookingTime": "25 minutes",
+    "instructions": "Saute onion, capsicum and garlic in olive oil. Add tomatoes, cumin and paprika and simmer until the sauce thickens. Make small wells and crack the eggs into them. Cover and cook until the eggs are set."
+  },
+  {
+    "name": "Butter Chicken",
+    "ingredients": [
+      "chicken",
+      "tomato",
+      "butter",
+      "cream",
+      "garlic",
+      "ginger",
+      "garam masala",
+      "chili powder"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "medium",
+    "cookingTime": "50 minutes",
+    "instructions": "Cook marinated chicken until lightly browned. Prepare a tomato sauce with butter, garlic, ginger and spices. Add cream and cooked chicken. Simmer until the sauce becomes rich and creamy."
+  },
+  {
+    "name": "Masala Dosa",
+    "ingredients": [
+      "dosa batter",
+      "potato",
+      "onion",
+      "green chili",
+      "mustard seeds",
+      "curry leaves",
+      "turmeric",
+      "oil"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "hard",
+    "cookingTime": "45 minutes",
+    "instructions": "Prepare a potato filling by sauteing mustard seeds, curry leaves, onion, green chili and turmeric with mashed potatoes. Spread dosa batter thinly on a hot pan. Cook until crisp, add the potato filling and fold."
+  },
+  {
+    "name": "Vegetable Biryani",
+    "ingredients": [
+      "basmati rice",
+      "carrot",
+      "peas",
+      "potato",
+      "beans",
+      "onion",
+      "yogurt",
+      "garam masala",
+      "mint"
+    ],
+    "cuisine": "Indian",
+    "difficulty": "medium",
+    "cookingTime": "50 minutes",
+    "instructions": "Saute onions and vegetables with yogurt and spices. Add partially cooked basmati rice and layer with mint. Cover and cook on low heat until the rice is fully tender and aromatic."
+  }
+]
